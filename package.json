@@ -1,0 +1,17 @@
+{
+  "name": "bitget-mcp",
+  "version": "1.0.0",
+  "description": "Bitget MCP Server for Claude",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
